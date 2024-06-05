@@ -17,3 +17,8 @@ var swiper = new Swiper(".slide-content",{
     },
 
 });
+
+const nextBtn = document.querySelector(".swiper-button-next");
+console.log("AAAAAA");
+console.log(nextBtn);
+setInterval(()=> nextBtn.click(), 3000);
